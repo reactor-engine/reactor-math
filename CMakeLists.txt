@@ -13,7 +13,7 @@ set(TEST_SOURCE_FILES
 include_directories(
         ext/catch
         ../reactor-api-math/api/include
-        ../reactor-api-type/api/include)
+        ../reactor-api-common/api/include)
 
 #add_executable(reactor_math ${SOURCE_FILES})
 add_executable(reactor_math_test ${SOURCE_FILES} ${TEST_SOURCE_FILES})

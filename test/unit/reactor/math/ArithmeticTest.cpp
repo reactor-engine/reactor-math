@@ -1,8 +1,8 @@
 #include "catch.hpp"
-#include "reactor/type/types.hpp"
+#include "reactor/common/type/types.hpp"
 #include "reactor/math/Arithmetic.hpp"
 
-using namespace reactor::type;
+using namespace reactor::common::type;
 using namespace reactor::math;
 
 TEST_CASE("Arithmetic abs-operation is correct", "[Arithmetic.abs]") {
